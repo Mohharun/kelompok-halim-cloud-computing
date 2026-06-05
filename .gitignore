@@ -1,0 +1,5 @@
+.env
+mysql_data/
+wordpress_data/
+minio_data/
+.DS_Store
