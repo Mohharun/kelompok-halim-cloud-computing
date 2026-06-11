@@ -1,0 +1,29 @@
+KONTRIBUSI ANGGOTA KELOMPOK HALIM
+Project: Deployment WordPress Enterprise-Ready Berbasis Docker Container
+Minggu 1: Core & Network
+
+1. KRISNA PUTRA NUR QODRI (230403010022)
+   - Membantu penyusunan struktur folder project.
+   - Membantu dokumentasi README.md.
+   - Membantu pengujian WordPress dan Docker container.
+
+2. GILANG MAHARDHIKA PRATAMA (230403010024)
+   - Membantu konfigurasi Docker Compose.
+   - Membantu setup database MariaDB.
+   - Membantu pengecekan Docker volume dan network.
+
+3. MOH HARUN (230403010032)
+   - Membuat repository GitHub.
+   - Menyusun file docker-compose.yml, .env.example, dan .gitignore.
+   - Menjalankan deployment WordPress menggunakan Docker Compose.
+
+4. KRISNA HALIM HUSSANAEN (230403010042)
+   - Membantu setup WordPress dan pengecekan dashboard.
+   - Membantu pengujian persistent database.
+   - Membantu pengumpulan screenshot monitoring minggu 1.
+
+Catatan Minggu 1:
+- WordPress berhasil dijalankan melalui Docker.
+- MariaDB berhasil digunakan sebagai database container.
+- Docker Volume digunakan agar data bersifat persistent.
+- Custom Docker Network digunakan untuk memisahkan komunikasi antar-container.
