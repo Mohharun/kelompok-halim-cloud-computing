@@ -1,3 +1,8 @@
+# ==========================================
+# MINGGU 3 - SECURITY BEST PRACTICES
+# Mencegah file sensitif ikut terunggah.
+# ==========================================
+
 .env
 mysql_data/
 wordpress_data/

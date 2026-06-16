@@ -1,3 +1,14 @@
+# ==========================================
+# MINGGU 3 - SECURITY & BEST PRACTICES
+# Deployment WordPress Enterprise-Ready
+# Kelompok Halim - Cloud Computing
+#
+# Perubahan Minggu 3:
+# - Verifikasi penggunaan .env
+# - Verifikasi tidak ada hardcoded credentials
+# - Pemeriksaan konfigurasi docker-compose
+# ==========================================
+
 services:
   wordpress:
     build:
