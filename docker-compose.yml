@@ -78,6 +78,28 @@ services:
       - frontend-net
       - backend-net
 
+  minio-sync:
+    image: minio/mc:latest
+    container_name: wp_minio_sync
+    restart: unless-stopped
+    depends_on:
+      - minio
+      - wordpress
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_BUCKET: ${MINIO_BUCKET}
+    volumes:
+      - wordpress_data:/wordpress
+    networks:
+      - backend-net
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set local http://minio:9000 $$MINIO_ROOT_USER $$MINIO_ROOT_PASSWORD; do sleep 5; done;
+      mc mb --ignore-existing local/$$MINIO_BUCKET;
+      mc mirror --watch /wordpress/wp-content/uploads local/$$MINIO_BUCKET/uploads
+      "
+
 volumes:
   wordpress_data:
   mysql_data:
