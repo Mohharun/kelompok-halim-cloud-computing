@@ -1,0 +1,35 @@
+KONTRIBUSI ANGGOTA KELOMPOK HALIM
+Project: Deployment WordPress Enterprise-Ready Berbasis Docker Container
+Minggu 2: Cache & Object Storage
+
+1. KRISNA PUTRA NUR QODRI (230403010022)
+
+   * Membantu pengujian Redis Object Cache pada WordPress.
+   * Membantu verifikasi performa cache menggunakan RedisInsight.
+   * Membantu dokumentasi hasil implementasi Redis.
+
+2. GILANG MAHARDHIKA PRATAMA (230403010024)
+
+   * Membantu konfigurasi layanan MinIO sebagai Object Storage.
+   * Membantu pembuatan bucket penyimpanan media WordPress.
+   * Membantu pengujian penyimpanan file media pada MinIO.
+
+3. MOH HARUN (230403010032)
+
+   * Mengintegrasikan Redis ke dalam lingkungan Docker Compose.
+   * Mengimplementasikan sinkronisasi file media WordPress ke MinIO.
+   * Melakukan pengujian dan monitoring layanan Redis serta MinIO.
+
+4. KRISNA HALIM HUSSANAEN (230403010042)
+
+   * Membantu pengujian upload media melalui WordPress Media Library.
+   * Membantu verifikasi file media yang tersimpan pada Object Storage.
+   * Membantu pengumpulan screenshot monitoring minggu 2.
+
+Catatan Minggu 2:
+
+* Redis berhasil diintegrasikan sebagai cache layer untuk WordPress.
+* RedisInsight berhasil digunakan untuk monitoring cache.
+* MinIO berhasil dijalankan sebagai Object Storage.
+* File media WordPress berhasil tersimpan dan tersinkronisasi ke bucket MinIO.
+* Seluruh layanan berjalan melalui Docker Compose.
