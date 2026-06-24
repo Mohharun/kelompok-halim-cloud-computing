@@ -1,0 +1,37 @@
+KONTRIBUSI ANGGOTA KELOMPOK HALIM
+Project: Deployment WordPress Enterprise-Ready Berbasis Docker Container
+Minggu 3: Security & Best Practices
+
+1. KRISNA PUTRA NUR QODRI (230403010022)
+
+   * Membantu verifikasi penggunaan file .env untuk penyimpanan credential.
+   * Membantu pengecekan agar tidak terdapat password yang ditulis langsung (hardcoded) pada docker-compose.yml.
+   * Membantu dokumentasi bukti implementasi keamanan pada repository GitHub.
+
+2. GILANG MAHARDHIKA PRATAMA (230403010024)
+
+   * Membantu verifikasi konfigurasi .env.example sebagai template konfigurasi lingkungan.
+   * Membantu pengecekan file .gitignore untuk memastikan file sensitif tidak terunggah ke repository.
+   * Membantu pengumpulan bukti screenshot implementasi keamanan.
+
+3. MOH HARUN (230403010032)
+
+   * Melakukan peninjauan konfigurasi Docker Compose terkait keamanan deployment.
+   * Memastikan seluruh credential menggunakan variabel environment.
+   * Mengelola commit dan pembaruan repository GitHub untuk progress Minggu 3.
+
+4. KRISNA HALIM HUSSANAEN (230403010042)
+
+   * Membantu pengujian akhir layanan WordPress, MariaDB, Redis, dan MinIO.
+   * Membantu verifikasi bahwa seluruh layanan tetap berjalan setelah penerapan konfigurasi keamanan.
+   * Membantu penyusunan dokumentasi progress dan checklist Minggu 3.
+
+Catatan Minggu 3:
+
+* Seluruh credential dipisahkan ke dalam file .env.
+* File docker-compose.yml tidak menggunakan hardcoded password.
+* File .env tidak diunggah ke repository GitHub.
+* File .env.example disediakan sebagai template konfigurasi.
+* File .gitignore digunakan untuk mencegah file sensitif ikut terunggah.
+* Konfigurasi deployment telah ditinjau sesuai prinsip Security & Best Practices.
+* Repository GitHub telah diperbarui sebagai bukti progress Minggu 3.
